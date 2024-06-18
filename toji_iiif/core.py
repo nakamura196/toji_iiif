@@ -279,7 +279,7 @@ class TojiClient:
         for item in data["items"]:
             html += f"""<tr>
             <td>
-            <a href="./mirador/?manifesst={item['id']}" target="_blank">
+            <a href="./mirador/?manifest={item['id']}" target="_blank">
             {item['label']['ja'][0]}
             </a>
             </td>
