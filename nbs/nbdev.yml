@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "toji_iiif"
+  site-url: "https://nakamura196.github.io/toji_iiif"
+  description: "東寺百合文書WEBで公開されている画像をIIIF形式で配信するプロジェクト"
+  repo-branch: main
+  repo-url: "https://github.com/nakamura196/toji_iiif"
