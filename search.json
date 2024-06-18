@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "toji_iiif",
+    "section": "",
+    "text": "東寺百合文書WEBで公開されている画像をIIIF形式で配信するプロジェクト",
+    "crumbs": [
+      "toji_iiif"
+    ]
+  },
+  {
+    "objectID": "index.html#demo",
+    "href": "index.html#demo",
+    "title": "toji_iiif",
+    "section": "Demo",
+    "text": "Demo\nhttps://nakamura196.github.io/toji_iiif/",
+    "crumbs": [
+      "toji_iiif"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "toji_iiif",
+    "section": "Install",
+    "text": "Install\npip install git+https://github.com/nakamura196/toji_iiif.git",
+    "crumbs": [
+      "toji_iiif"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "toji_iiif",
+    "section": "How to use",
+    "text": "How to use\nCreate IIIF manifests and collection files.\nDATA_DIR = \"../src/data\"\nDOCS_DIR = \"../docs\"\nORIGIN = \"https://nakamura196.github.io/toji_iiif/iiif\"\n\nTojiClient.main(DATA_DIR, DOCS_DIR, ORIGIN, size=1, is_skip_if_manifest_exists=True)\nCreate index page from IIIF Collection file.\nTojiClient.create_index(\n    f\"{DOCS_DIR}/iiif/set/3/collection.json\",\n    f\"{DOCS_DIR}/index.html\",\n)",
+    "crumbs": [
+      "toji_iiif"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nTojiClient\n\n TojiClient (data_dir, docs_dir, origin, images, image_metadata_map,\n             document_metadata_map, image_size, is_debug=False,\n             is_skip_if_manifest_exists=True)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nTojiClient.main\n\n TojiClient.main (data_dir, docs_dir, origin, size=-1, is_debug=False,\n                  is_skip_if_manifest_exists=True)\n\n\nsource\n\n\nTojiClient.createCollection\n\n TojiClient.createCollection (rows)\n\n\n\n\n\nDetails\n\n\n\n\nrows\n, rows\n\n\n\n\nsource\n\n\nTojiClient.createManifest\n\n TojiClient.createManifest (row_d)\n\n\nsource\n\n\nTojiClient.createCanvases\n\n TojiClient.createCanvases (manifest, row_d, prefix)",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
