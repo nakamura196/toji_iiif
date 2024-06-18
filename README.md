@@ -12,7 +12,7 @@ https://nakamura196.github.io/toji_iiif/
 ## Install
 
 ``` sh
-pip install toji_iiif
+pip install git+https://github.com/nakamura196/toji_iiif.git
 ```
 
 ## How to use
@@ -26,8 +26,6 @@ ORIGIN = "https://nakamura196.github.io/toji_iiif/iiif"
 
 TojiClient.main(DATA_DIR, DOCS_DIR, ORIGIN, size=1, is_skip_if_manifest_exists=True)
 ```
-
-      0%|          | 0/46257 [00:00<?, ?it/s]
 
 ``` python
 TojiClient.create_index(
